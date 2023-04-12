@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-plugin-dedupe-head",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Hyeseong Kim",
+    "email": "hey@hyeseong.kim",
+    "url": "https://github.com/cometkim"
+  },
+  "homepage": "https://www.gatsbyjs.org/packages/gatsby-plugin-dedupe-head/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cometkim/gatsby-plugin-dedupe-head.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cometkim/gatsby-plugin-dedupe-head/issues",
+    "email": "hey@hyeseong.kim"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "seo"
+  ],
+  "main": "/index.js",
+  "scripts": {
+    "prepack": "yarn build",
+    "build": "babel src -d . --presets gatsby-package --extensions .ts,.tsx"
+  },
+  "files": [
+    "/*.js"
+  ],
+  "peerDependencies": {
+    "gatsby": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@types/react": "^18.0.34",
+    "@types/react-dom": "^18.0.11",
+    "babel-preset-gatsby-package": "^3.8.0",
+    "gatsby": "^5.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4"
+  },
+  "packageManager": "yarn@3.5.0"
+}
