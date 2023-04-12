@@ -9,7 +9,7 @@ export const onPreRenderHTML: GatsbySSR['onPreRenderHTML'] = ({
   replaceHeadComponents,
 }, options) => {
   const {
-    strategy = 'pick_first',
+    strategy = 'pick_last',
   } = options as unknown as PluginOptions;
 
   const elements = getHeadComponents();

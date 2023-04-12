@@ -29,7 +29,7 @@ This list cannot be customized yet. If you need other properties [please file an
     {
       resolve: 'gatsby-plugin-dedupe-head',
       options: {
-        strategy: 'pick_first', // default
+        strategy: 'pick_last', // default
       },
     },
   ],
