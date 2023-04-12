@@ -1,6 +1,7 @@
 {
   "name": "gatsby-plugin-dedupe-head",
   "version": "0.1.0",
+  "description": "A GatsbyJS plugin to omit duplicated elements in the `<head>`",
   "license": "MIT",
   "author": {
     "name": "Hyeseong Kim",
