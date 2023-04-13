@@ -24,10 +24,26 @@ export const onPreRenderHTML: GatsbySSR['onPreRenderHTML'] = ({
     // Unlike OpenGraph, Twitter Cards allows a single image
     'twitter:image',
     'twitter:image:alt',
+    'twitter:app:id:googleplay',
+    'twitter:app:url:googleplay',
+    'twitter:app:id:iphone',
+    'twitter:app:url:iphone',
+    'twitter:app:id:ipad',
+    'twitter:app:url:ipad',
+    'twitter:app:country',
+    'twitter:player',
+    'twitter:player:width',
+    'twitter:player:height',
   ];
   const metaPropertiesToDedupe = [
+    'og:type',
+    'og:url',
+    'og:site_name',
     'og:title',
     'og:description',
+    'og:determiner',
+    'og:locale',
+    'fb:app_id',
   ];
 
   const collector = new Map<string, React.ReactElement>();

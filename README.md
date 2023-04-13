@@ -14,8 +14,13 @@ Which tags will be de-duplicated:
 - `title`
 - `meta[name=description]`
 - `link[rel=canonical]`
+- `meta[property=og:type]`
+- `meta[property=og:url]`
 - `meta[property=og:title]`
 - `meta[property=og:description]`
+- `meta[property=og:determiner]`
+- `meta[property=og:locale]`
+- `meta[property=fb:app_id]`
 - `meta[name=twitter:*]`
 
 This list cannot be customized yet. If you need other properties [please file an issue](https://github.com/cometkim/gatsby-plugin-dedupe-head/issues/new).
