@@ -22,7 +22,7 @@
     "gatsby-plugin",
     "seo"
   ],
-  "main": "/index.js",
+  "main": "index.js",
   "scripts": {
     "prepack": "yarn build",
     "build": "babel src -d . --presets gatsby-package --extensions .ts,.tsx"
