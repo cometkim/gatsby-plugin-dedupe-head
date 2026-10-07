@@ -34,8 +34,8 @@
     "gatsby": "^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.21.0",
-    "@babel/core": "^7.21.4",
+    "@babel/cli": "^8.0.0",
+    "@babel/core": "^8.0.0",
     "@types/react": "^18.0.34",
     "@types/react-dom": "^18.0.11",
     "babel-preset-gatsby-package": "^3.8.0",
