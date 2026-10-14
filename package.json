@@ -36,12 +36,12 @@
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.4",
-    "@types/react": "^18.0.34",
-    "@types/react-dom": "^18.0.11",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "babel-preset-gatsby-package": "^3.8.0",
     "gatsby": "^5.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "typescript": "^5.0.4"
   },
   "packageManager": "yarn@3.5.1"
